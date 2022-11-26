@@ -1,0 +1,14 @@
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\bin\Debug\Store managment system.exe.config
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\bin\Debug\Store managment system.exe
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\bin\Debug\Store managment system.pdb
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store managment system.csprojResolveAssemblyReference.cache
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store_managment_system.Form1.resources
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store_managment_system.Properties.Resources.resources
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store managment system.csproj.GenerateResource.Cache
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store managment system.exe
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store managment system.pdb
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\bin\Debug\Guna.UI.dll
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\bin\Debug\Guna.UI2.dll
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store_managment_system.Login.resources
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store_managment_system.Dashboard1.resources
+C:\Users\Nadir\Desktop\AllCodeWeb\Store managment system\Store managment system\obj\Debug\Store_managment_system.Dashboard2.resources
