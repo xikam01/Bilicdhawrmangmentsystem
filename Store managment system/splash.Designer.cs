@@ -1,6 +1,6 @@
 ﻿namespace Store_managment_system
 {
-    partial class Form1
+    partial class splash
     {
         /// <summary>
         /// Required designer variable.
