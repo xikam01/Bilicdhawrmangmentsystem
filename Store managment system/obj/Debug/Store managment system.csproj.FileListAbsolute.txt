@@ -36,3 +36,15 @@ C:\Users\Dev\Desktop\app\Bilicdhawrmangmentsystem\Store managment system\obj\Deb
 C:\Users\Dev\Desktop\app\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Properties.Resources.resources
 C:\Users\Dev\Desktop\app\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csproj.GenerateResource.Cache
 C:\Users\Dev\Desktop\app\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.splash.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\bin\Debug\Store managment system.exe.config
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.exe
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.pdb
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\bin\Debug\Store managment system.exe
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\bin\Debug\Store managment system.pdb
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csprojResolveAssemblyReference.cache
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Dashboard1.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Dashboard2.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.splash.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Login.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Properties.Resources.resources
+C:\Users\Dev\Desktop\Development\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csproj.GenerateResource.Cache
