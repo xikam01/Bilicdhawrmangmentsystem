@@ -41,12 +41,12 @@
             this.gunaProgressBar1.BorderColor = System.Drawing.Color.Black;
             this.gunaProgressBar1.ColorStyle = Guna.UI.WinForms.ColorStyle.Transition;
             this.gunaProgressBar1.IdleColor = System.Drawing.Color.Gainsboro;
-            this.gunaProgressBar1.Location = new System.Drawing.Point(-6, 283);
+            this.gunaProgressBar1.Location = new System.Drawing.Point(3, 265);
             this.gunaProgressBar1.Name = "gunaProgressBar1";
             this.gunaProgressBar1.ProgressMaxColor = System.Drawing.Color.Yellow;
             this.gunaProgressBar1.ProgressMinColor = System.Drawing.Color.Yellow;
             this.gunaProgressBar1.Radius = 4;
-            this.gunaProgressBar1.Size = new System.Drawing.Size(847, 10);
+            this.gunaProgressBar1.Size = new System.Drawing.Size(828, 17);
             this.gunaProgressBar1.TabIndex = 0;
             // 
             // timer1
@@ -62,7 +62,7 @@
             this.panel1.Size = new System.Drawing.Size(834, 293);
             this.panel1.TabIndex = 1;
             // 
-            // Form1
+            // splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,7 @@
             this.ClientSize = new System.Drawing.Size(840, 296);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "splash";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
