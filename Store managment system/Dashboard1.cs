@@ -26,5 +26,30 @@ namespace Store_managment_system
         {
             Application.Exit();
         }
+
+        private void Home_Click(object sender, EventArgs e)
+        {
+            home1.BringToFront();
+        }
+
+        private void gunaButton1_Click_1(object sender, EventArgs e)
+        {
+            student1.BringToFront();
+        }
+
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+            teachers1.BringToFront();
+        }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+            grade1.BringToFront();
+        }
+
+        private void gunaButton7_Click(object sender, EventArgs e)
+        {
+            salarey1.BringToFront();
+        }
     }
 }

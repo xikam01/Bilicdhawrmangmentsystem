@@ -30,15 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard1));
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
-            this.Home = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton6 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton7 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.Home = new Guna.UI.WinForms.GunaButton();
+            this.grade1 = new Store_managment_system.Grade();
+            this.teachers1 = new Store_managment_system.Teachers();
+            this.student1 = new Store_managment_system.Student();
+            this.home1 = new Store_managment_system.Home();
+            this.salarey1 = new Store_managment_system.salarey();
             this.gunaGradient2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,113 +69,33 @@
             this.gunaGradient2Panel1.Size = new System.Drawing.Size(170, 657);
             this.gunaGradient2Panel1.TabIndex = 0;
             // 
-            // Home
+            // gunaButton8
             // 
-            this.Home.AnimationHoverSpeed = 0.07F;
-            this.Home.AnimationSpeed = 0.03F;
-            this.Home.BackColor = System.Drawing.Color.Transparent;
-            this.Home.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Home.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Home.BorderSize = 1;
-            this.Home.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Home.FocusedColor = System.Drawing.Color.Purple;
-            this.Home.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Home.ForeColor = System.Drawing.Color.White;
-            this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
-            this.Home.ImageSize = new System.Drawing.Size(20, 20);
-            this.Home.Location = new System.Drawing.Point(12, 133);
-            this.Home.Name = "Home";
-            this.Home.OnHoverBaseColor = System.Drawing.Color.Teal;
-            this.Home.OnHoverBorderColor = System.Drawing.Color.White;
-            this.Home.OnHoverForeColor = System.Drawing.Color.White;
-            this.Home.OnHoverImage = null;
-            this.Home.OnPressedColor = System.Drawing.Color.Black;
-            this.Home.Radius = 6;
-            this.Home.Size = new System.Drawing.Size(142, 25);
-            this.Home.TabIndex = 0;
-            this.Home.Text = "Home";
-            this.Home.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.gunaButton1.BorderSize = 1;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Purple;
-            this.gunaButton1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(12, 188);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Teal;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 6;
-            this.gunaButton1.Size = new System.Drawing.Size(142, 25);
-            this.gunaButton1.TabIndex = 1;
-            this.gunaButton1.Text = "Student";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton2
-            // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.gunaButton2.BorderSize = 1;
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Purple;
-            this.gunaButton2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
-            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(12, 294);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.Teal;
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Radius = 6;
-            this.gunaButton2.Size = new System.Drawing.Size(142, 25);
-            this.gunaButton2.TabIndex = 3;
-            this.gunaButton2.Text = "Class";
-            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.gunaButton3.BorderSize = 1;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Purple;
-            this.gunaButton3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton3.Image")));
-            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(12, 239);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.Teal;
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 6;
-            this.gunaButton3.Size = new System.Drawing.Size(142, 25);
-            this.gunaButton3.TabIndex = 2;
-            this.gunaButton3.Text = "Teacher";
-            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton8.AnimationHoverSpeed = 0.07F;
+            this.gunaButton8.AnimationSpeed = 0.03F;
+            this.gunaButton8.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton8.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gunaButton8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.gunaButton8.BorderSize = 1;
+            this.gunaButton8.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton8.FocusedColor = System.Drawing.Color.Purple;
+            this.gunaButton8.Font = new System.Drawing.Font("Fira Code Medium", 8.249999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton8.ForeColor = System.Drawing.Color.White;
+            this.gunaButton8.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton8.Image")));
+            this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton8.Location = new System.Drawing.Point(34, 620);
+            this.gunaButton8.Name = "gunaButton8";
+            this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.Teal;
+            this.gunaButton8.OnHoverBorderColor = System.Drawing.Color.White;
+            this.gunaButton8.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton8.OnHoverImage = null;
+            this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton8.Radius = 6;
+            this.gunaButton8.Size = new System.Drawing.Size(83, 25);
+            this.gunaButton8.TabIndex = 8;
+            this.gunaButton8.Text = "Logout";
+            this.gunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
             // 
             // gunaButton4
             // 
@@ -279,34 +204,159 @@
             this.gunaButton7.TabIndex = 4;
             this.gunaButton7.Text = "Salary";
             this.gunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
-            // gunaButton8
+            // gunaButton2
             // 
-            this.gunaButton8.AnimationHoverSpeed = 0.07F;
-            this.gunaButton8.AnimationSpeed = 0.03F;
-            this.gunaButton8.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton8.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.gunaButton8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.gunaButton8.BorderSize = 1;
-            this.gunaButton8.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton8.FocusedColor = System.Drawing.Color.Purple;
-            this.gunaButton8.Font = new System.Drawing.Font("Fira Code Medium", 8.249999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton8.ForeColor = System.Drawing.Color.White;
-            this.gunaButton8.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton8.Image")));
-            this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton8.Location = new System.Drawing.Point(34, 620);
-            this.gunaButton8.Name = "gunaButton8";
-            this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.Teal;
-            this.gunaButton8.OnHoverBorderColor = System.Drawing.Color.White;
-            this.gunaButton8.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton8.OnHoverImage = null;
-            this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton8.Radius = 6;
-            this.gunaButton8.Size = new System.Drawing.Size(83, 25);
-            this.gunaButton8.TabIndex = 8;
-            this.gunaButton8.Text = "Logout";
-            this.gunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
+            this.gunaButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaButton2.AnimationSpeed = 0.03F;
+            this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gunaButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.gunaButton2.BorderSize = 1;
+            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton2.FocusedColor = System.Drawing.Color.Purple;
+            this.gunaButton2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
+            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton2.Location = new System.Drawing.Point(12, 294);
+            this.gunaButton2.Name = "gunaButton2";
+            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.Teal;
+            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.White;
+            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton2.OnHoverImage = null;
+            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton2.Radius = 6;
+            this.gunaButton2.Size = new System.Drawing.Size(142, 25);
+            this.gunaButton2.TabIndex = 3;
+            this.gunaButton2.Text = "Class";
+            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
+            // 
+            // gunaButton3
+            // 
+            this.gunaButton3.AnimationHoverSpeed = 0.07F;
+            this.gunaButton3.AnimationSpeed = 0.03F;
+            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gunaButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.gunaButton3.BorderSize = 1;
+            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton3.FocusedColor = System.Drawing.Color.Purple;
+            this.gunaButton3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton3.ForeColor = System.Drawing.Color.White;
+            this.gunaButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton3.Image")));
+            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton3.Location = new System.Drawing.Point(12, 239);
+            this.gunaButton3.Name = "gunaButton3";
+            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.Teal;
+            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.White;
+            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton3.OnHoverImage = null;
+            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton3.Radius = 6;
+            this.gunaButton3.Size = new System.Drawing.Size(142, 25);
+            this.gunaButton3.TabIndex = 2;
+            this.gunaButton3.Text = "Teacher";
+            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
+            // 
+            // gunaButton1
+            // 
+            this.gunaButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaButton1.AnimationSpeed = 0.03F;
+            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gunaButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.gunaButton1.BorderSize = 1;
+            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton1.FocusedColor = System.Drawing.Color.Purple;
+            this.gunaButton1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
+            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton1.Location = new System.Drawing.Point(12, 188);
+            this.gunaButton1.Name = "gunaButton1";
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Teal;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.White;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton1.OnHoverImage = null;
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton1.Radius = 6;
+            this.gunaButton1.Size = new System.Drawing.Size(142, 25);
+            this.gunaButton1.TabIndex = 1;
+            this.gunaButton1.Text = "Student";
+            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click_1);
+            // 
+            // Home
+            // 
+            this.Home.AnimationHoverSpeed = 0.07F;
+            this.Home.AnimationSpeed = 0.03F;
+            this.Home.BackColor = System.Drawing.Color.Transparent;
+            this.Home.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Home.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Home.BorderSize = 1;
+            this.Home.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Home.FocusedColor = System.Drawing.Color.Purple;
+            this.Home.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Home.ForeColor = System.Drawing.Color.White;
+            this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
+            this.Home.ImageSize = new System.Drawing.Size(20, 20);
+            this.Home.Location = new System.Drawing.Point(12, 133);
+            this.Home.Name = "Home";
+            this.Home.OnHoverBaseColor = System.Drawing.Color.Teal;
+            this.Home.OnHoverBorderColor = System.Drawing.Color.White;
+            this.Home.OnHoverForeColor = System.Drawing.Color.White;
+            this.Home.OnHoverImage = null;
+            this.Home.OnPressedColor = System.Drawing.Color.Black;
+            this.Home.Radius = 6;
+            this.Home.Size = new System.Drawing.Size(142, 25);
+            this.Home.TabIndex = 0;
+            this.Home.Text = "Home";
+            this.Home.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
+            // grade1
+            // 
+            this.grade1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grade1.Location = new System.Drawing.Point(170, 0);
+            this.grade1.Name = "grade1";
+            this.grade1.Size = new System.Drawing.Size(1022, 657);
+            this.grade1.TabIndex = 4;
+            // 
+            // teachers1
+            // 
+            this.teachers1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.teachers1.Location = new System.Drawing.Point(170, 0);
+            this.teachers1.Name = "teachers1";
+            this.teachers1.Size = new System.Drawing.Size(1022, 657);
+            this.teachers1.TabIndex = 3;
+            // 
+            // student1
+            // 
+            this.student1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.student1.Location = new System.Drawing.Point(170, 0);
+            this.student1.Name = "student1";
+            this.student1.Size = new System.Drawing.Size(1022, 657);
+            this.student1.TabIndex = 2;
+            // 
+            // home1
+            // 
+            this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.home1.Location = new System.Drawing.Point(170, 0);
+            this.home1.Name = "home1";
+            this.home1.Size = new System.Drawing.Size(1022, 657);
+            this.home1.TabIndex = 1;
+            // 
+            // salarey1
+            // 
+            this.salarey1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.salarey1.Location = new System.Drawing.Point(170, 0);
+            this.salarey1.Name = "salarey1";
+            this.salarey1.Size = new System.Drawing.Size(1022, 657);
+            this.salarey1.TabIndex = 5;
             // 
             // Dashboard1
             // 
@@ -314,6 +364,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1192, 657);
+            this.Controls.Add(this.salarey1);
+            this.Controls.Add(this.grade1);
+            this.Controls.Add(this.teachers1);
+            this.Controls.Add(this.student1);
+            this.Controls.Add(this.home1);
             this.Controls.Add(this.gunaGradient2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Dashboard1";
@@ -337,6 +392,11 @@
         private Guna.UI.WinForms.GunaButton gunaButton3;
         private Guna.UI.WinForms.GunaButton gunaButton1;
         private Guna.UI.WinForms.GunaButton gunaButton8;
+        private Home home1;
+        private Student student1;
+        private Teachers teachers1;
+        private Grade grade1;
+        private salarey salarey1;
 
     }
 }

@@ -65,10 +65,15 @@ C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.pdb
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\bin\Debug\Store managment system.exe
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\bin\Debug\Store managment system.pdb
-C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csprojResolveAssemblyReference.cache
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Dashboard1.resources
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Dashboard2.resources
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.splash.resources
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Login.resources
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Properties.Resources.resources
 C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csproj.GenerateResource.Cache
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Home.resources
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Student.resources
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Teachers.resources
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.Grade.resources
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store managment system.csprojResolveAssemblyReference.cache
+C:\Users\cabdiraxman\Desktop\Bilicdhawrmangmentsystem\Store managment system\obj\Debug\Store_managment_system.salarey.resources
