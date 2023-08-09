@@ -41,12 +41,12 @@
             this.gunaProgressBar1.BorderColor = System.Drawing.Color.Black;
             this.gunaProgressBar1.ColorStyle = Guna.UI.WinForms.ColorStyle.Transition;
             this.gunaProgressBar1.IdleColor = System.Drawing.Color.Gainsboro;
-            this.gunaProgressBar1.Location = new System.Drawing.Point(3, 265);
+            this.gunaProgressBar1.Location = new System.Drawing.Point(2, 267);
             this.gunaProgressBar1.Name = "gunaProgressBar1";
             this.gunaProgressBar1.ProgressMaxColor = System.Drawing.Color.Yellow;
             this.gunaProgressBar1.ProgressMinColor = System.Drawing.Color.Yellow;
             this.gunaProgressBar1.Radius = 4;
-            this.gunaProgressBar1.Size = new System.Drawing.Size(828, 17);
+            this.gunaProgressBar1.Size = new System.Drawing.Size(831, 22);
             this.gunaProgressBar1.TabIndex = 0;
             // 
             // timer1

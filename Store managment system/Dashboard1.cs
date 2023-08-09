@@ -16,5 +16,15 @@ namespace Store_managment_system
         {
             InitializeComponent();
         }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
